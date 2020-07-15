@@ -1,31 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
+  <meta charset="UTF-8" />
   <title>Wilfredo Morales</title>
 </head>
 
 <body>
   <header>
     <figure>
-      <img src="" alt="">logo
-    </figure>
+      <img src="images/logo.png" alt="logo">
+    </figur_>
     <nav>
       <ul>
-        <li><a href="">Portafolio</a></li>
-        <li><a href="">Experiencia</a></li>
-        <li><a href="">Trabajemos Juntos</a></li>
+        <li><a href="#portfolio">Portafolio</a></li>
+        <li><a href="#experience">Experiencia</a></li>
+        <li><a href="#work_together">Trabajemos Juntos</a></li>
       </ul>
     </nav>
   </header>
   <section>
     <h1>Hola! Soy <strong>Wilfredo Morales</strong> desarrollador <br> <strong>JavaScript</strong> con <br> pasión por
       <strong>aprender</strong></h1>
-      <figure>
-        <img src="" alt="imagen de portada" />
-      </figure>
+        <img src="images/hero.jpg" width="500" alt="imagen de principal del sitio" />
   </section>
-  <section>
+  <section id="portfolio">
     <h2>Portafólio (Proyectos Destacados)</h2>
     <h3>Platzi Video</h3>
     <h6>React Native / React</h6>
@@ -35,16 +34,27 @@
       React y React Native. Desde crear un vista-detalle, hasta patrones avanzados de navegación, este proyecto ha sido
       el ejemplo de futuros creadores de aplicaciones multiplataforma
     </p>
+    <img src="images/platzi-video-react-native.png" alt="proyecto del curso de react native" width="500">
   </section>
-  <section>
+  <section id="experience">
     <h2>Más Sobre Mi Experiencia</h2>
+    <figure>
+      <img src="images/platzi-conf.jpg" alt="Platzi Conf" width="500">
+    </figure>
     <h3>Platzi Conf</h3>
     <p>
       El evento más grande sobre gente que quiere aprender más de internet. En este evento te comparto cómo tener una
       vida de constante aprendizaje.
     </p>
+    <a href="https://www.youtube.com/watch?v=9XyiBI53LZ0&list=RDMM9XyiBI53LZ0&start_radio=1">Ver platica</a>
   </section>
-  <section>Sección Contacto</section>
+  <section id="work_together">
+    <form action="">
+      <h3>¿Creamos algo juntos?</h3>
+      <input type="text" placeholder="Dejame tu email">
+      <button>Enviar</button>
+    </form>
+  </section>
   <footer>footer</footer>
 </body>
 
